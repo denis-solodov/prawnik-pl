@@ -1,10 +1,12 @@
-# Prawnik PL — asystent prawa polskiego
+# Prawnik PL — polskie prawo dla agentów AI
+
+Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wyszukiwać przepisy i orzecznictwo, przygotowywać projekty pism oraz obliczać terminy i opłaty.
 
 **Wersja:** 1.0.0 (18 listopada 2026 r.)  
 **Język:** polski; odpowiada także po angielsku, rosyjsku lub w języku pytania, stosując polskie kategorie prawne.  
 **Status:** publiczna beta. Eksperymentalne wsparcie w badaniu prawa i przygotowywaniu projektów pism. W sprawach wymagających porady skorzystaj z pomocy adwokata lub radcy prawnego.
 
-**English** · Prawnik PL is an experimental Polish legal research and drafting assistant. The package includes source guides, templates and offline calculators.
+**English** · Prawnik PL is an experimental, open-source Polish law skill for AI agents using the [Agent Skills format](https://agentskills.io/specification). It supports Polish legal research, document drafting, and deadline calculations.
 
 ## Możliwości
 
