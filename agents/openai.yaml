@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prawnik PL"
+  short_description: "Polskie prawo, pisma, terminy i legalna weryfikacja"
+  default_prompt: "Przeanalizuj moją sprawę według prawa polskiego, sprawdź aktualne przepisy i zaproponuj legalne kolejne kroki."

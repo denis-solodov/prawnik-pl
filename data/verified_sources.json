@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "created": "2026-11-18",
+    "last_reviewed": "2026-11-18",
+    "review_after_days": 30,
+    "scope": "Selected official texts and legal rules reviewed while assembling the Polish adaptation; not a certification of the current law in every field."
+  },
+  "sources": [
+    {"id": "kc-2026-795", "checked": "2026-11-18", "subject": "KC, statutory interest art. 359 and 481", "url": "https://eli.gov.pl/eli/DU/2026/795/ogl"},
+    {"id": "kpc-2026-468", "checked": "2026-11-18", "subject": "KPC, restoring missed deadlines and appeal art. 168-169 and 369", "url": "https://eli.gov.pl/eli/DU/2026/468/ogl"},
+    {"id": "kpa-2025-1691", "checked": "2026-11-18", "subject": "KPA, art. 57 and 129", "url": "https://eli.gov.pl/eli/DU/2025/1691/ogl"},
+    {"id": "kpk-2026-490", "checked": "2026-11-18", "subject": "KPK, art. 460", "url": "https://eli.gov.pl/eli/DU/2026/490/ogl"},
+    {"id": "kp-2026-1245", "checked": "2026-11-18", "subject": "Kodeks pracy, art. 264", "url": "https://eli.gov.pl/eli/DU/2026/1245/ogl"},
+    {"id": "ppsa-2026-143", "checked": "2026-11-18", "subject": "p.p.s.a., art. 53", "url": "https://eli.gov.pl/eli/DU/2026/143/ogl"},
+    {"id": "consumer-2026-1244", "checked": "2026-11-18", "subject": "Consumer Rights Act, art. 7a and withdrawal guidance", "url": "https://eli.gov.pl/eli/DU/2026/1244/ogl"},
+    {"id": "fees-2025-1228", "checked": "2026-11-18", "subject": "Civil court fees, art. 13 and cap amendment (Dz.U. 2025 poz. 1157)", "url": "https://eli.gov.pl/eli/DU/2025/1228/ogl"},
+    {"id": "holidays-2025-296", "checked": "2026-11-18", "subject": "Statutory holidays in Poland, including Dec 24", "url": "https://eli.gov.pl/eli/DU/2025/296/ogl"},
+    {"id": "kpow-2026-1336", "checked": "2026-11-18", "subject": "KPW, art. 101", "url": "https://eli.gov.pl/eli/DU/2026/1336/ogl"}
+  ]
+}
