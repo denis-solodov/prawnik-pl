@@ -2,6 +2,8 @@
 
 Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wyszukiwać przepisy i orzecznictwo, przygotowywać projekty pism oraz obliczać terminy i opłaty.
 
+[Otwórz SKILL.md](SKILL.md) · [Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip)
+
 **Wersja:** 1.0.0 (18 listopada 2026 r.)  
 **Język:** polski; odpowiada także po angielsku, rosyjsku lub w języku pytania, stosując polskie kategorie prawne.  
 **Status:** publiczna beta. Eksperymentalne wsparcie w badaniu prawa i przygotowywaniu projektów pism. W sprawach wymagających porady skorzystaj z pomocy adwokata lub radcy prawnego.
@@ -35,7 +37,17 @@ Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wy
 
 ## Instalacja i użycie
 
-### Pełny skill w Codex
+### Instalacja w Codex przez Skills CLI
+
+W folderze projektu uruchom poniższe polecenie. Potrzebujesz Node.js w wersji 22.20 lub nowszej oraz npm.
+
+```bash
+npx skills add denis-solodov/prawnik-pl --skill prawnik-pl --agent codex --copy --yes
+```
+
+Następnie otwórz ten projekt w Codex i wybierz `$prawnik-pl`.
+
+### Instalacja w Codex z pliku ZIP
 
 1. Pobierz plik ZIP z zakładki Releases i go rozpakuj.
 2. Przenieś cały folder pakietu do katalogu projektu tak, aby plik wejściowy znalazł się pod ścieżką `.agents/skills/prawnik-pl/SKILL.md`.
