@@ -1,0 +1,44 @@
+name: Błąd prawny
+description: Zgłoś błąd dotyczący przepisu, procedury, terminu lub orzeczenia.
+body:
+  - type: markdown
+    attributes:
+      value: Przed wysłaniem usuń dane osobowe, sygnatury spraw prywatnych i poufne dokumenty.
+  - type: input
+    id: environment
+    attributes:
+      label: Wersja skilla i modelu
+      description: Podaj wersję Prawnik PL, model i jego wersję oraz dostępność przeglądania.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Zanonimizowany prompt
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Rzeczywista odpowiedź
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Oczekiwana poprawka
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Źródło urzędowe
+      description: Wklej link i podaj przepis albo sygnaturę opublikowanego orzeczenia.
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Data właściwego stanu prawnego
+    validations:
+      required: true
