@@ -89,7 +89,7 @@ Błędy w działaniu i podstawach prawnych zgłaszaj przez Issues, a pytania i p
 
 Projekt prowadzi **dr hab. Denis Solodov, prof. UWM** z Katedry Kryminologii i Kryminalistyki na Wydziale Prawa i Administracji Uniwersytetu Warmińsko-Mazurskiego w Olsztynie. Bada, jak sądy i organy publiczne oceniają dowody i podejmują decyzje przy niepełnych informacjach. Zajmuje się także gwarancjami proceduralnymi oraz wpływem sztucznej inteligencji na podejmowanie decyzji prawnych.
 
-[Profil akademicki Denisa Solodova na stronie UWM](https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm)
+[Profil akademicki Denisa Solodova na stronie UWM](https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm) · [ORCID 0000-0003-2884-9420](https://orcid.org/0000-0003-2884-9420)
 
 Współautorem projektu jest **Ilia Solodov**, doktor prawa, prawnik i specjalista w dziedzinie informatyki śledczej.
 
