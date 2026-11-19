@@ -2,7 +2,7 @@
 
 Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wyszukiwać przepisy i orzecznictwo, przygotowywać projekty pism oraz obliczać terminy i opłaty.
 
-[Otwórz SKILL.md](SKILL.md) · [Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip) · [O autorze](#o-autorze)
+[Otwórz SKILL.md](SKILL.md) · [Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip) · [O autorach](#o-autorach)
 
 **Wersja:** 1.0.0 (18 listopada 2026 r.)  
 **Język:** polski; odpowiada także po angielsku, rosyjsku lub w języku pytania, stosując polskie kategorie prawne.  
@@ -83,13 +83,19 @@ Testy automatyczne obejmują wybrane obliczenia i integralność pakietu. [Zesta
 
 Błędy w działaniu i podstawach prawnych zgłaszaj przez Issues, a pytania i pomysły przez Discussions. Przed zgłoszeniem usuń dane osobowe i poufne informacje. Szczegóły zawierają [zasady współtworzenia](CONTRIBUTING.md) i [historia zmian](CHANGELOG.md).
 
-## O autorze
+<a name="o-autorze"></a>
+
+## O autorach
 
 Projekt prowadzi **dr hab. Denis Solodov, prof. UWM** z Katedry Kryminologii i Kryminalistyki na Wydziale Prawa i Administracji Uniwersytetu Warmińsko-Mazurskiego w Olsztynie. Bada, jak sądy i organy publiczne oceniają dowody i podejmują decyzje przy niepełnych informacjach. Zajmuje się także gwarancjami proceduralnymi oraz wpływem sztucznej inteligencji na podejmowanie decyzji prawnych.
 
-[Profil akademicki na stronie UWM](https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm)
+[Profil akademicki Denisa Solodova na stronie UWM](https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm)
+
+Współautorem projektu jest **Ilia Solodov**, doktor prawa, prawnik i specjalista w dziedzinie informatyki śledczej.
 
 ## Licencja i autorstwo
+
+Współautorami Prawnik PL są **dr hab. Denis Solodov, prof. UWM** oraz **dr Ilia Solodov**.
 
 Prawnik PL jest udostępniany na [licencji MIT](LICENSE).
 
