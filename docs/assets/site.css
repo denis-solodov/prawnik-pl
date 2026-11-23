@@ -60,8 +60,10 @@ pre { margin: 10px 0; white-space: pre-wrap; overflow-wrap: anywhere; }
 button { color: inherit; font: inherit; font-weight: 700; min-height: 38px; padding: 6px 10px; border: 1px solid currentColor; border-radius: 4px; background: transparent; cursor: pointer; }
 button:hover { text-decoration: underline; }
 .install { padding-block: clamp(48px, 6vw, 76px); background: #e9edf2; }
-.install-grid, .about-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: clamp(28px, 7vw, 86px); }
-.install h2 + p, .about-grid p { margin-top: 14px; color: var(--muted); }
+.install-grid, .about-grid, .coverage-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: clamp(28px, 7vw, 86px); }
+.install h2 + p, .about-grid p, .coverage-grid p { margin-top: 14px; color: var(--muted); }
+#coverage { border-top: 1px solid var(--line); background: #fff; }
+.coverage-grid { margin-top: 24px; }
 .terminal { min-width: 0; padding: 19px 22px; border-radius: 7px; background: var(--navy); color: white; }
 .terminal p { color: #e0e5ec; font-size: .9rem; }
 .terminal pre { color: #fff2d9; font-size: .94rem; }
@@ -79,7 +81,7 @@ button:hover { text-decoration: underline; }
   .wrap { width: min(580px, 100% - 40px); }
   .nav { grid-template-columns: 1fr auto; column-gap: 15px; row-gap: 0; padding-block: 11px; }
   .nav-links { grid-column: 1 / -1; grid-row: 2; gap: 7px 20px; margin-top: 7px; }
-  .hero-grid, .install-grid, .about-grid, .case-grid { grid-template-columns: 1fr; }
+  .hero-grid, .install-grid, .about-grid, .coverage-grid, .case-grid { grid-template-columns: 1fr; }
   .hero-grid { padding-top: 39px; }
   .hero-photo { width: 100%; aspect-ratio: 1.65; }
   .case-grid { gap: 16px; }

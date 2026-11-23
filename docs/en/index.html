@@ -19,6 +19,39 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../assets/site.css">
   <script src="../assets/site.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://denis-solodov.github.io/prawnik-pl/en/",
+    "inLanguage": "en",
+    "mainEntity": {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://denis-solodov.github.io/prawnik-pl/#prawnik-pl",
+      "name": "Prawnik PL",
+      "description": "Try the public beta of Prawnik PL, an open-source AI skill for Polish law and administration. Verify legal sources, calculate deadlines, and draft documents.",
+      "url": "https://denis-solodov.github.io/prawnik-pl/",
+      "codeRepository": "https://github.com/denis-solodov/prawnik-pl",
+      "license": "https://github.com/denis-solodov/prawnik-pl/blob/main/LICENSE",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Denis Solodov",
+          "sameAs": "https://orcid.org/0000-0003-2884-9420"
+        },
+        {
+          "@type": "Person",
+          "name": "Ilia Solodov"
+        }
+      ],
+      "subjectOf": {
+        "@type": "WebPage",
+        "url": "https://uwm.edu.pl/kryminalistyka/en/announcements/prawnik-pl-public-beta-and-invitation-test-ai-skill-polish-law-and-administration",
+        "inLanguage": "en"
+      }
+    }
+  }
+  </script>
 </head>
 <body data-copy-command="Command copied." data-copied="Prompt copied." data-copy-fail="Select and copy the text manually.">
   <a class="skip" href="#main">Skip to content</a>
@@ -104,6 +137,22 @@ On 7 November the landlord returned PLN 1,000. In an email, the landlord said PL
         </div>
       </div>
     </section>
+    <section class="section" id="coverage">
+      <div class="wrap">
+        <h2>Coverage and source verification</h2>
+        <div class="coverage-grid">
+          <div>
+            <h3>What does Prawnik PL cover?</h3>
+            <p>Prawnik PL supports research on Polish law and administrative procedure. It covers areas including civil, consumer, tenancy, employment, and family law. In Codex, you can use it to check the grounds for an administrative appeal, calculate a filing deadline, or draft a consumer complaint or demand for payment.</p>
+          </div>
+          <div>
+            <h3>How does the skill check current law?</h3>
+            <p>The instructions require agents to verify the rules that determine the answer against current official sources, such as Poland’s ELI legislation database and CBOSA administrative court database. Live verification requires internet access. The local Python calculator works from supplied inputs to calculate deadlines and interest.</p>
+            <p><a href="https://github.com/denis-solodov/prawnik-pl/blob/main/SKILL.md">Skill instructions and source verification rules</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="install" id="install">
       <div class="wrap install-grid">
         <div>
@@ -131,6 +180,7 @@ On 7 November the landlord returned PLN 1,000. In an email, the landlord said PL
           <p>We developed Prawnik PL while preparing a research publication and released it as a public beta under the MIT License. The research will assess answer quality across a wider set of cases. Independent review of the results is still pending.</p>
           <p>The project was co-authored by <a href="https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm">Dr. habil. Denis Solodov, associate professor at the University of Warmia and Mazury in Olsztyn</a> (<a href="https://orcid.org/0000-0003-2884-9420">ORCID</a>), and <strong>Dr. Ilia Solodov</strong>, a lawyer and digital forensics specialist.</p>
           <p><a href="https://uwm.edu.pl/kryminalistyka/en/announcements/prawnik-pl-public-beta-and-invitation-test-ai-skill-polish-law-and-administration">Announcement from UWM’s Department of Criminology and Criminalistics</a></p>
+          <p><a href="https://github.com/apiotrowski-afk/awesome-legaltech-pl#narz%C4%99dzia-i-skille-prawnicze">Awesome Legaltech PL listing</a></p>
         </div>
         <div>
           <h2>Help test the beta</h2>

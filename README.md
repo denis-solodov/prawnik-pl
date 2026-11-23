@@ -12,6 +12,8 @@ Prawnik PL powstał podczas prac nad publikacją naukową. To otwarty pakiet ins
 
 [Ogłoszenie UWM](https://uwm.edu.pl/kryminalistyka/ogloszenia/prawnik-pl-publiczna-beta-asystenta-ai-do-prawa-administracji) · [UWM announcement in English](https://uwm.edu.pl/kryminalistyka/en/announcements/prawnik-pl-public-beta-and-invitation-test-ai-skill-polish-law-and-administration)
 
+[Prawnik PL w katalogu Awesome Legaltech PL](https://github.com/apiotrowski-afk/awesome-legaltech-pl#narz%C4%99dzia-i-skille-prawnicze)
+
 ## Możliwości
 
 - **Materiały referencyjne** porządkują 13 obszarów prawa i wskazują, gdzie szukać przepisów i orzeczeń.
