@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prawnik PL | Polskie prawo dla agentów AI</title>
+  <meta name="description" content="Poznaj Prawnik PL, otwarty skill dla agentów AI do pracy z polskim prawem. Zobacz trzy fikcyjne sprawy i zainstaluj publiczną betę w Codex.">
+  <link rel="canonical" href="https://denis-solodov.github.io/prawnik-pl/">
+  <link rel="alternate" hreflang="pl" href="https://denis-solodov.github.io/prawnik-pl/">
+  <link rel="alternate" hreflang="en" href="https://denis-solodov.github.io/prawnik-pl/en/">
+  <link rel="alternate" hreflang="x-default" href="https://denis-solodov.github.io/prawnik-pl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prawnik PL | Polskie prawo dla agentów AI">
+  <meta property="og:description" content="Poznaj Prawnik PL, otwarty skill dla agentów AI do pracy z polskim prawem. Zobacz trzy fikcyjne sprawy i zainstaluj publiczną betę w Codex.">
+  <meta property="og:url" content="https://denis-solodov.github.io/prawnik-pl/">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:image" content="https://denis-solodov.github.io/prawnik-pl/assets/prawnik-pl.jpg">
+  <meta property="og:image:alt" content="Prawnik PL">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body data-copy-command="Skopiowano polecenie." data-copied="Skopiowano prompt." data-copy-fail="Zaznacz i skopiuj tekst ręcznie.">
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="site-header">
+    <nav class="wrap nav">
+      <a class="brand" href="./">Prawnik <span>PL</span></a>
+      <div class="nav-links">
+        <a href="#examples">Przykłady</a>
+        <a href="#install">Instalacja</a>
+        <a href="#about">O projekcie</a>
+      </div>
+      <a class="language" href="en/" lang="en" hreflang="en">English</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Publiczna beta · Licencja MIT</p>
+          <h1>Polskie prawo dla agentów AI</h1>
+          <p class="hero-lead">Sprawdzaj podstawy prawne, obliczaj terminy i przygotowuj projekty pism z pomocą otwartego skilla Prawnik PL. Możesz zadawać pytania po polsku lub angielsku.</p>
+          <div class="actions">
+            <a class="button light" href="#install">Zainstaluj w Codex</a>
+            <a class="button outline" href="#examples">Zobacz przykłady</a>
+          </div>
+        </div>
+        <div class="hero-photo" aria-hidden="true"></div>
+      </div>
+    </section>
+    <section class="section" id="examples">
+      <div class="wrap">
+        <h2>Trzy sprawy do przetestowania</h2>
+        <p class="section-lead">Sprawdziliśmy te fikcyjne sytuacje w Codex po polsku. Każdy przykład zawiera prompt, skrót odpowiedzi i urzędowe źródło. Możesz skopiować pytanie i uruchomić je u siebie.</p>
+        <div class="case-grid">
+          <article class="case" id="appeal">
+            <p class="category">Postępowanie administracyjne</p>
+            <h3>Odwołanie od odmowy dodatku mieszkaniowego</h3>
+            <p>Ostatnim dniem na odwołanie w przykładzie był 23 listopada 2026 r. Codex wyjaśnił przesunięcie terminu z soboty, wskazał, że zwykły e-mail nie jest skutecznym sposobem wniesienia odwołania, i przygotował projekt pisma.</p>
+            <a class="source" href="https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf">Kodeks postępowania administracyjnego</a>
+            <details>
+              <summary>Pokaż prompt</summary>
+              <pre class="prompt" id="prompt-appeal">$prawnik-pl Jest 19 listopada 2026 r. Burmistrz wydał 3 listopada decyzję odmawiającą mi dodatku mieszkaniowego. List odebrałam osobiście na poczcie w sobotę 7 listopada. W pouczeniu jest napisane, że odwołanie wnosi się do SKO za pośrednictwem burmistrza w terminie 14 dni od doręczenia. Podejrzewam, że urząd dwukrotnie policzył jedną wypłatę. Mam zaświadczenie od pracodawcy i kopię wniosku.
+
+Podaj ostatni dzień na odwołanie, pokaż, jak go obliczasz, i sprawdź, czy mogę wysłać pismo zwykłym e-mailem. Przygotuj krótki projekt odwołania z miejscami na dane i załączniki.</pre>
+              <div class="copy-line" hidden>
+                <button type="button" data-copy="prompt-appeal">Kopiuj prompt</button>
+                <span role="status" aria-live="polite"></span>
+              </div>
+            </details>
+          </article>
+          <article class="case" id="refund">
+            <p class="category">Prawo konsumenckie</p>
+            <h3>Zwrot pieniędzy za nieszczelny ekspres</h3>
+            <p>W przykładzie prawo odstąpienia od zakupu na odległość można było wykonać do 20 listopada 2026 r. Codex porównał odstąpienie, reklamację u sprzedawcy i gwarancję oraz przygotował wiadomość do sklepu.</p>
+            <a class="source" href="https://api.sejm.gov.pl/eli/acts/DU/2026/1244/text/O/D20261244.pdf">Ustawa o prawach konsumenta</a>
+            <details>
+              <summary>Pokaż prompt</summary>
+              <pre class="prompt" id="prompt-refund">$prawnik-pl Jest 19 listopada 2026 r. Kupiłem prywatnie w polskim sklepie internetowym ekspres za 1 249 zł. Odebrałem go 6 listopada. Przy trzecim użyciu spod obudowy zaczęła wyciekać woda, więc odłączyłem urządzenie. Dnia 16 listopada napisałem do sklepu: „Ekspres przecieka. Proszę o informację, jak zgłosić usterkę”. Następnego dnia sklep odpowiedział, że mam skontaktować się z serwisem producenta. Mam potwierdzenie zakupu i nagranie usterki.
+
+Chcę odzyskać pieniądze. Porównaj dostępne możliwości, wskaż, czy trzeba działać jeszcze dziś, i przygotuj wiadomość do sprzedawcy. Wyjaśnij, które żądania mogę zgłosić od razu, a które zależą od dodatkowych okoliczności.</pre>
+              <div class="copy-line" hidden>
+                <button type="button" data-copy="prompt-refund">Kopiuj prompt</button>
+                <span role="status" aria-live="polite"></span>
+              </div>
+            </details>
+          </article>
+          <article class="case" id="deposit">
+            <p class="category">Najem mieszkania</p>
+            <h3>Zwrot kaucji po wyprowadzce</h3>
+            <p>W przykładzie termin zwrotu kaucji upłynął 30 października 2026 r. Codex wyliczył cztery możliwe kwoty dopłaty (2 000, 1 500, 500 lub 0 zł), wskazał potrzebne dowody i przygotował projekt wezwania do zapłaty.</p>
+            <a class="source" href="https://eli.gov.pl/api/acts/DU/2023/725/text.html">Ustawa o ochronie praw lokatorów</a>
+            <details>
+              <summary>Pokaż prompt</summary>
+              <pre class="prompt" id="prompt-deposit">$prawnik-pl Jest 19 listopada 2026 r. Wynajmowałam mieszkanie od 1 października 2024 r. do 30 września 2026 r. na podstawie zwykłej umowy najmu. Czynsz najmu przez cały okres wynosił 2 500 zł, a kaucja 3 000 zł. Oddałam klucze 30 września. W protokole zapisaliśmy „drobne ślady użytkowania na ścianach” i stan licznika prądu. Nie miałam zaległości w czynszu.
+
+Dnia 7 listopada właściciel zwrócił mi 1 000 zł. W mailu napisał, że potrącił 1 500 zł za malowanie i 500 zł za prąd. Nie dołączył rachunków. Mam zdjęcia z początku i końca najmu. Jakiej kwoty mogę żądać w zależności od tego, które potrącenia właściciel uzasadni? Sprawdź termin zwrotu kaucji, wskaż potrzebne dowody i przygotuj projekt wezwania do zapłaty.</pre>
+              <div class="copy-line" hidden>
+                <button type="button" data-copy="prompt-deposit">Kopiuj prompt</button>
+                <span role="status" aria-live="polite"></span>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="install" id="install">
+      <div class="wrap install-grid">
+        <div>
+          <h2>Uruchom Prawnik PL w Codex</h2>
+          <p>W folderze projektu uruchom poniższe polecenie. Potrzebujesz Node.js 22.20 lub nowszego i npm. Otwórz projekt w Codex, wybierz <code>$prawnik-pl</code> i wklej pytanie.</p>
+        </div>
+        <div class="terminal">
+          <p>Polecenie instalacji</p>
+          <pre id="install-command"><code>npx skills add denis-solodov/prawnik-pl --skill prawnik-pl --agent codex --copy --yes</code></pre>
+          <div class="copy-line" hidden>
+            <button type="button" data-copy="install-command">Kopiuj polecenie</button>
+            <span role="status" aria-live="polite"></span>
+          </div>
+          <div class="install-links">
+            <a href="https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip">Pobierz ZIP v1.0.0</a>
+            <a href="https://github.com/denis-solodov/prawnik-pl#instalacja-i-u%C5%BCycie">Pozostałe sposoby instalacji</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2>O projekcie badawczym</h2>
+          <p>Prawnik PL powstał w ramach przygotowania publikacji naukowej. Wstępne próby objęły trzy fikcyjne sprawy. Szersza ocena jakości odpowiedzi i niezależna weryfikacja wyników pozostają częścią prac badawczych.</p>
+          <p>Współautorami są <a href="https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm">dr hab. Denis Solodov, prof. UWM</a> (<a href="https://orcid.org/0000-0003-2884-9420">ORCID</a>) oraz dr Ilia Solodov, prawnik i specjalista w dziedzinie informatyki śledczej.</p>
+        </div>
+        <div>
+          <h2>Pomóż nam przetestować betę</h2>
+          <p>Zapraszamy prawników, badaczy, studentów prawa i użytkowników agentów AI. W zgłoszeniu podaj wersję skilla i modelu, zanonimizowane pytanie oraz fragment odpowiedzi. Jeśli zgłaszasz błąd prawny, dołącz urzędowe źródło i datę, na którą należy sprawdzić przepis.</p>
+          <div class="actions">
+            <a class="button dark" href="https://github.com/denis-solodov/prawnik-pl/issues">Zgłoś problem</a>
+            <a class="button muted" href="https://github.com/denis-solodov/prawnik-pl/discussions">Dołącz do dyskusji</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p><strong>Prawnik PL</strong> · Eksperymentalne narzędzie do pracy z polskim prawem.</p>
+      <div><a href="https://github.com/denis-solodov/prawnik-pl">GitHub</a><a href="https://github.com/denis-solodov/prawnik-pl/blob/main/LICENSE">MIT</a></div>
+    </div>
+  </footer>
+</body>
+</html>

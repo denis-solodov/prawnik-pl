@@ -2,7 +2,7 @@
 
 Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wyszukiwać przepisy i orzecznictwo, przygotowywać projekty pism oraz obliczać terminy i opłaty.
 
-[Otwórz SKILL.md](SKILL.md) · [Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip) · [O autorach](#o-autorach)
+[Strona projektu i przykłady](https://denis-solodov.github.io/prawnik-pl/) · [English landing page](https://denis-solodov.github.io/prawnik-pl/en/) · [Otwórz SKILL.md](SKILL.md) · [Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip) · [O autorach](#o-autorach)
 
 **Wersja:** 1.0.0 (18 listopada 2026 r.)  
 **Język:** polski; odpowiada także po angielsku, rosyjsku lub w języku pytania, stosując polskie kategorie prawne.  

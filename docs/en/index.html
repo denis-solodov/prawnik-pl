@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prawnik PL | Polish law for AI agents</title>
+  <meta name="description" content="Explore Prawnik PL, an open-source skill for AI agents working with Polish law. Try three fictional cases and install the public beta in Codex.">
+  <link rel="canonical" href="https://denis-solodov.github.io/prawnik-pl/en/">
+  <link rel="alternate" hreflang="pl" href="https://denis-solodov.github.io/prawnik-pl/">
+  <link rel="alternate" hreflang="en" href="https://denis-solodov.github.io/prawnik-pl/en/">
+  <link rel="alternate" hreflang="x-default" href="https://denis-solodov.github.io/prawnik-pl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prawnik PL | Polish law for AI agents">
+  <meta property="og:description" content="Explore Prawnik PL, an open-source skill for AI agents working with Polish law. Try three fictional cases and install the public beta in Codex.">
+  <meta property="og:url" content="https://denis-solodov.github.io/prawnik-pl/en/">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:image" content="https://denis-solodov.github.io/prawnik-pl/assets/prawnik-pl.jpg">
+  <meta property="og:image:alt" content="Prawnik PL">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script src="../assets/site.js" defer></script>
+</head>
+<body data-copy-command="Command copied." data-copied="Prompt copied." data-copy-fail="Select and copy the text manually.">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="wrap nav">
+      <a class="brand" href="../">Prawnik <span>PL</span></a>
+      <div class="nav-links">
+        <a href="#examples">Examples</a>
+        <a href="#install">Install</a>
+        <a href="#about">About</a>
+      </div>
+      <a class="language" href="../" lang="pl" hreflang="pl">Polski</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Public beta · MIT license</p>
+          <h1>Polish law for AI agents</h1>
+          <p class="hero-lead">Find and check legal sources, calculate deadlines, and draft documents with the open-source Prawnik PL skill. Ask questions in Polish or English.</p>
+          <div class="actions">
+            <a class="button light" href="#install">Install in Codex</a>
+            <a class="button outline" href="#examples">Explore the examples</a>
+          </div>
+        </div>
+        <div class="hero-photo" aria-hidden="true"></div>
+      </div>
+    </section>
+    <section class="section" id="examples">
+      <div class="wrap">
+        <h2>Three cases you can test</h2>
+        <p class="section-lead">We ran these fictional scenarios in Polish in Codex. Each example includes an English translation of the prompt, a summary of the response, and an official source. Copy a prompt to try it yourself.</p>
+        <div class="case-grid">
+          <article class="case" id="appeal">
+            <p class="category">Administrative procedure</p>
+            <h3>Appealing a housing benefit refusal</h3>
+            <p>The appeal deadline in the example was 23 November 2026. Codex explained why it shifted from Saturday, flagged that ordinary email was ineffective for filing the appeal, and drafted the appeal.</p>
+            <a class="source" href="https://eli.gov.pl/api/acts/DU/2025/1691/text.pdf">Polish Code of Administrative Procedure</a>
+            <details>
+              <summary>Show the prompt</summary>
+              <pre class="prompt" id="prompt-appeal">$prawnik-pl It is 19 November 2026. On 3 November the mayor refused my housing benefit application. I picked up the decision in person at the post office on Saturday, 7 November. The decision says I have 14 days from service to appeal to the Local Government Appeals Board (SKO) through the mayor. I suspect the office counted one payment twice. I have a certificate from my employer and a copy of my application.
+
+Give me the last day to appeal, show how you calculated it, and check whether I can file by ordinary email. Prepare a short appeal with placeholders for my details and attachments.</pre>
+              <div class="copy-line" hidden>
+                <button type="button" data-copy="prompt-appeal">Copy prompt</button>
+                <span role="status" aria-live="polite"></span>
+              </div>
+            </details>
+          </article>
+          <article class="case" id="refund">
+            <p class="category">Consumer rights</p>
+            <h3>Getting a refund for a leaking espresso machine</h3>
+            <p>The distance-sale withdrawal deadline in the example was 20 November 2026. Codex compared withdrawal, a statutory complaint to the seller, and a guarantee claim, then drafted a message to the seller.</p>
+            <a class="source" href="https://api.sejm.gov.pl/eli/acts/DU/2026/1244/text/O/D20261244.pdf">Polish Consumer Rights Act</a>
+            <details>
+              <summary>Show the prompt</summary>
+              <pre class="prompt" id="prompt-refund">$prawnik-pl It is 19 November 2026. I bought an espresso machine as a consumer from a Polish online store for PLN 1,249. I received it on 6 November. On the third use, water started leaking from the casing, so I unplugged it. On 16 November I wrote to the store: “The espresso machine is leaking. Please tell me how to report the fault.” The next day the store directed me to the manufacturer’s service department. I have proof of purchase and a video of the leak.
+
+I want my money back. Compare my options, say whether I need to act today, and draft a message to the seller. Explain which requests I can make immediately and which depend on other circumstances.</pre>
+              <div class="copy-line" hidden>
+                <button type="button" data-copy="prompt-refund">Copy prompt</button>
+                <span role="status" aria-live="polite"></span>
+              </div>
+            </details>
+          </article>
+          <article class="case" id="deposit">
+            <p class="category">Residential tenancy</p>
+            <h3>Recovering a deposit after moving out</h3>
+            <p>The deposit was due on 30 October 2026 in the example. Codex calculated four possible balances (PLN 2,000, 1,500, 500, or 0), identified supporting evidence, and drafted a demand for payment.</p>
+            <a class="source" href="https://eli.gov.pl/api/acts/DU/2023/725/text.html">Polish Tenant Protection Act</a>
+            <details>
+              <summary>Show the prompt</summary>
+              <pre class="prompt" id="prompt-deposit">$prawnik-pl It is 19 November 2026. I rented a flat on a standard lease from 1 October 2024 to 30 September 2026. Monthly rent was PLN 2,500 and the deposit was PLN 3,000. I returned the keys on 30 September. The signed handover report records “minor signs of wear on the walls” and the electricity meter reading. I had no rent arrears.
+
+On 7 November the landlord returned PLN 1,000. In an email, the landlord said PLN 1,500 was deducted for painting and PLN 500 for electricity. No bills were attached. I have photos from the start and end of the tenancy. How much can I claim depending on which deductions the landlord can justify? Check the deposit deadline, identify what evidence I need, and draft a demand for payment.</pre>
+              <div class="copy-line" hidden>
+                <button type="button" data-copy="prompt-deposit">Copy prompt</button>
+                <span role="status" aria-live="polite"></span>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="install" id="install">
+      <div class="wrap install-grid">
+        <div>
+          <h2>Run Prawnik PL in Codex</h2>
+          <p>In your project folder, run the command below. You need Node.js 22.20 or later and npm. Open the project in Codex, select <code>$prawnik-pl</code>, and paste your question.</p>
+        </div>
+        <div class="terminal">
+          <p>Installation command</p>
+          <pre id="install-command"><code>npx skills add denis-solodov/prawnik-pl --skill prawnik-pl --agent codex --copy --yes</code></pre>
+          <div class="copy-line" hidden>
+            <button type="button" data-copy="install-command">Copy command</button>
+            <span role="status" aria-live="polite"></span>
+          </div>
+          <div class="install-links">
+            <a href="https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip">Download the v1.0.0 ZIP</a>
+            <a href="https://github.com/denis-solodov/prawnik-pl#instalacja-i-u%C5%BCycie">Other installation options</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2>About the research project</h2>
+          <p>Prawnik PL was created in preparation for an academic publication. The initial tests covered three fictional cases. A broader assessment of response quality and an independent review of the results are part of the ongoing research.</p>
+          <p>The project was co-authored by <a href="https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm">Dr. habil. Denis Solodov, associate professor at the University of Warmia and Mazury in Olsztyn</a> (<a href="https://orcid.org/0000-0003-2884-9420">ORCID</a>), and Dr. Ilia Solodov, a lawyer and digital forensics specialist.</p>
+        </div>
+        <div>
+          <h2>Help test the beta</h2>
+          <p>We invite lawyers, researchers, law students, and AI users to test the skill. Include the skill version, model version, anonymised prompt, and the relevant excerpt from the response. For legal errors, include the official source and the date for which the rule should be checked.</p>
+          <div class="actions">
+            <a class="button dark" href="https://github.com/denis-solodov/prawnik-pl/issues">Report an issue</a>
+            <a class="button muted" href="https://github.com/denis-solodov/prawnik-pl/discussions">Join the discussion</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p><strong>Prawnik PL</strong> · An experimental tool for working with Polish law.</p>
+      <div><a href="https://github.com/denis-solodov/prawnik-pl">GitHub</a><a href="https://github.com/denis-solodov/prawnik-pl/blob/main/LICENSE">MIT</a></div>
+    </div>
+  </footer>
+</body>
+</html>
