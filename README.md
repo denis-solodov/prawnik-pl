@@ -1,6 +1,6 @@
-# Prawnik PL — polskie prawo dla agentów AI
+# Prawnik PL — asystent AI do polskiego prawa i administracji
 
-Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wyszukiwać przepisy i orzecznictwo, przygotowywać projekty pism oraz obliczać terminy i opłaty.
+Prawnik PL powstał podczas prac nad publikacją naukową. To otwarty pakiet instrukcji i narzędzi dla agentów AI, w tym Codex. Pomaga znaleźć i zweryfikować podstawy prawne, obliczać terminy oraz przygotowywać projekty pism. Publiczna beta jest dostępna na licencji MIT.
 
 [Strona projektu i przykłady](https://denis-solodov.github.io/prawnik-pl/) · [English landing page](https://denis-solodov.github.io/prawnik-pl/en/) · [Otwórz SKILL.md](SKILL.md) · [Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip) · [O autorach](#o-autorach)
 
@@ -8,7 +8,9 @@ Prawnik PL to otwarty skill dla agentów AI do pracy z polskim prawem. Pomaga wy
 **Język:** polski; odpowiada także po angielsku, rosyjsku lub w języku pytania, stosując polskie kategorie prawne.  
 **Status:** publiczna beta. Eksperymentalne wsparcie w badaniu prawa i przygotowywaniu projektów pism. W sprawach wymagających porady skorzystaj z pomocy adwokata lub radcy prawnego.
 
-**English** · Prawnik PL is an experimental, open-source Polish law skill for AI agents using the [Agent Skills format](https://agentskills.io/specification). It supports Polish legal research, document drafting, and deadline calculations.
+**English** · Prawnik PL is a public beta for Polish law and administration, developed for an upcoming research publication. It uses the [Agent Skills format](https://agentskills.io/specification) to help AI agents verify legal sources, calculate deadlines, and draft documents. You can use it in English while working with Polish law.
+
+[Ogłoszenie UWM](https://uwm.edu.pl/kryminalistyka/ogloszenia/prawnik-pl-publiczna-beta-asystenta-ai-do-prawa-administracji) · [UWM announcement in English](https://uwm.edu.pl/kryminalistyka/en/announcements/prawnik-pl-public-beta-and-invitation-test-ai-skill-polish-law-and-administration)
 
 ## Możliwości
 
@@ -79,9 +81,11 @@ Zestaw zawiera **wybrane** punkty prawne sprawdzone 18.11.2026 w urzędowych źr
 
 ## Testy i zgłoszenia
 
-Testy automatyczne obejmują wybrane obliczenia i integralność pakietu. [Zestaw ewaluacyjny](evals/README.md) zawiera 20 scenariuszy. Wyniki oceny odpowiedzi modeli dla tej wersji nie zostały jeszcze opublikowane.
+We wstępnych próbach w Codex skill wskazał właściwe podstawy prawne i przygotował pisma dla [trzech fikcyjnych spraw](https://denis-solodov.github.io/prawnik-pl/#examples). Szersza ocena jakości odpowiedzi i niezależna weryfikacja wyników pozostają częścią prac badawczych. [Zestaw ewaluacyjny](evals/README.md) zawiera 20 scenariuszy. Testy automatyczne obejmują wybrane obliczenia i integralność pakietu.
 
-Błędy w działaniu i podstawach prawnych zgłaszaj przez Issues, a pytania i pomysły przez Discussions. Przed zgłoszeniem usuń dane osobowe i poufne informacje. Szczegóły zawierają [zasady współtworzenia](CONTRIBUTING.md) i [historia zmian](CHANGELOG.md).
+Do testowania zapraszamy prawników, badaczy, studentów prawa i osoby używające agentów AI. Szczególnie przydatne są zgłoszenia błędnie obliczonych terminów, pominiętych wyjątków i rozbieżności z urzędowymi źródłami.
+
+Błędy zgłaszaj przez Issues, a pytania i pomysły przez Discussions. Podaj wersje skilla i modelu, zanonimizowane pytanie oraz odpowiedni fragment odpowiedzi. Usuń dane osobowe i informacje poufne. Szczegóły zawierają [zasady współtworzenia](CONTRIBUTING.md) i [historia zmian](CHANGELOG.md).
 
 <a name="o-autorze"></a>
 
@@ -91,7 +95,7 @@ Projekt prowadzi **dr hab. Denis Solodov, prof. UWM** z Katedry Kryminologii i K
 
 [Profil akademicki Denisa Solodova na stronie UWM](https://www.uwm.edu.pl/kryminalistyka/dr-hab-denis-solodov-prof-uwm) · [ORCID 0000-0003-2884-9420](https://orcid.org/0000-0003-2884-9420)
 
-Współautorem projektu jest **Ilia Solodov**, doktor prawa, prawnik i specjalista w dziedzinie informatyki śledczej.
+Współautorem projektu jest **dr Ilia Solodov**, prawnik i specjalista w dziedzinie informatyki śledczej.
 
 ## Licencja i autorstwo
 
