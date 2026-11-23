@@ -68,6 +68,12 @@ button:hover { text-decoration: underline; }
 .terminal p { color: #e0e5ec; font-size: .9rem; }
 .terminal pre { color: #fff2d9; font-size: .94rem; }
 .install-links { display: flex; flex-wrap: wrap; gap: 5px 16px; margin-top: 13px; font-size: .9rem; }
+.install-options { margin-top: 40px; }
+.install-options > p { margin-top: 12px; color: var(--muted); max-width: 76ch; }
+.install-options-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 28px; margin-block: 20px; }
+.install-options-grid > div { padding-block: 14px; border-top: 1px solid #c2cad6; }
+.install-options-grid h4 { margin: 0 0 5px; font-size: 1.04rem; }
+.install-options-grid p { overflow-wrap: anywhere; }
 .site-footer { border-top: 1px solid var(--line); }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-block: 21px; color: var(--muted); font-size: .9rem; }
 .footer-inner div { display: flex; gap: 18px; }
@@ -81,7 +87,7 @@ button:hover { text-decoration: underline; }
   .wrap { width: min(580px, 100% - 40px); }
   .nav { grid-template-columns: 1fr auto; column-gap: 15px; row-gap: 0; padding-block: 11px; }
   .nav-links { grid-column: 1 / -1; grid-row: 2; gap: 7px 20px; margin-top: 7px; }
-  .hero-grid, .install-grid, .about-grid, .coverage-grid, .case-grid { grid-template-columns: 1fr; }
+  .hero-grid, .install-grid, .install-options-grid, .about-grid, .coverage-grid, .case-grid { grid-template-columns: 1fr; }
   .hero-grid { padding-top: 39px; }
   .hero-photo { width: 100%; aspect-ratio: 1.65; }
   .case-grid { gap: 16px; }

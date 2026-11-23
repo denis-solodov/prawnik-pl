@@ -74,7 +74,7 @@
           <h1>Asystent AI do polskiego prawa i administracji</h1>
           <p class="hero-lead">Prawnik PL to otwarty pakiet instrukcji i narzędzi dla agentów AI, w tym Codex. Pomaga znaleźć i zweryfikować podstawy prawne, obliczać terminy oraz przygotowywać pisma. Możesz z niego korzystać po polsku lub angielsku.</p>
           <div class="actions">
-            <a class="button light" href="#install">Zainstaluj w Codex</a>
+            <a class="button light" href="#install">Zainstaluj skill</a>
             <a class="button outline" href="#examples">Zobacz przykłady</a>
           </div>
         </div>
@@ -156,11 +156,11 @@ Dnia 7 listopada właściciel zwrócił mi 1 000 zł. W mailu napisał, że potr
     <section class="install" id="install">
       <div class="wrap install-grid">
         <div>
-          <h2>Uruchom Prawnik PL w Codex</h2>
+          <h2>Zainstaluj Prawnik PL</h2>
           <p>W folderze projektu uruchom poniższe polecenie. Potrzebujesz Node.js 22.20 lub nowszego i npm. Otwórz projekt w Codex, wybierz <code>$prawnik-pl</code> i wklej pytanie.</p>
         </div>
         <div class="terminal">
-          <p>Polecenie instalacji</p>
+          <p>Instalacja w Codex</p>
           <pre id="install-command"><code>npx skills add denis-solodov/prawnik-pl --skill prawnik-pl --agent codex --copy --yes</code></pre>
           <div class="copy-line" hidden>
             <button type="button" data-copy="install-command">Kopiuj polecenie</button>
@@ -168,9 +168,41 @@ Dnia 7 listopada właściciel zwrócił mi 1 000 zł. W mailu napisał, że potr
           </div>
           <div class="install-links">
             <a href="https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip">Pobierz ZIP v1.0.0</a>
-            <a href="https://github.com/denis-solodov/prawnik-pl#instalacja-i-u%C5%BCycie">Pozostałe sposoby instalacji</a>
+            <a href="https://github.com/denis-solodov/prawnik-pl#instalacja-i-u%C5%BCycie">Pełna instrukcja na GitHubie</a>
           </div>
         </div>
+      </div>
+      <div class="wrap install-options">
+        <h3>Instalacja w innych agentach</h3>
+        <p>Pobierz ZIP v1.0.0 powyżej. W przypadku instalacji z folderu rozpakuj archiwum i zachowaj cały katalog <code>prawnik-pl</code> wraz z jego plikami.</p>
+        <div class="install-options-grid">
+          <div>
+            <h4>Claude Code</h4>
+            <p>Umieść katalog w projekcie pod ścieżką <code>.claude/skills/prawnik-pl/</code>. W Claude Code wpisz <code>/prawnik-pl</code>. <a href="https://code.claude.com/docs/en/skills">Dokumentacja Claude Code</a></p>
+          </div>
+          <div>
+            <h4>Claude Desktop i Claude w przeglądarce</h4>
+            <p>Prześlij ZIP przez funkcję <strong>Upload a skill</strong> i włącz skill na swoim koncie. Funkcja wymaga włączonego wykonywania kodu. <a href="https://support.claude.com/en/articles/12512180-use-skills-in-claude">Instrukcja przesyłania skilli w Claude</a></p>
+          </div>
+          <div>
+            <h4>Hermes Desktop i Hermes Agent</h4>
+            <p>Skopiuj katalog do <code>~/.hermes/skills/prawnik-pl/</code> na komputerze, na którym działa Hermes z domyślnym profilem. Otwórz nową sesję i wpisz <code>/prawnik-pl</code>. <a href="https://hermes-agent.nousresearch.com/docs/user-guide/features/skills">Dokumentacja skilli w Hermes</a></p>
+          </div>
+          <div>
+            <h4>OpenClaw</h4>
+            <p>W aktywnym obszarze roboczym użyj polecenia poniżej. Po instalacji sprawdź wpis poleceniem <code>openclaw skills list</code>. <a href="https://docs.openclaw.ai/skills">Dokumentacja OpenClaw</a></p>
+            <pre><code>openclaw skills install git:denis-solodov/prawnik-pl@v1.0.0</code></pre>
+          </div>
+          <div>
+            <h4>Cursor</h4>
+            <p>Umieść katalog w projekcie pod ścieżką <code>.cursor/skills/prawnik-pl/</code>. W czacie Agent wybierz skill z menu <code>/</code>. <a href="https://cursor.com/docs/skills">Dokumentacja Cursor</a></p>
+          </div>
+          <div>
+            <h4>GitHub Copilot</h4>
+            <p>Umieść katalog w repozytorium projektu pod ścieżką <code>.github/skills/prawnik-pl/</code> i poproś Copilota o użycie Prawnik PL. <a href="https://docs.github.com/en/copilot/concepts/customizations/agent-skills">Dokumentacja GitHub Copilot</a></p>
+          </div>
+        </div>
+        <p>Próby opublikowane powyżej przeprowadziliśmy w Codex. W każdym środowisku dostęp do internetu jest potrzebny do bieżącego sprawdzania prawa, a Python do uruchomienia kalkulatora.</p>
       </div>
     </section>
     <section class="section" id="about">

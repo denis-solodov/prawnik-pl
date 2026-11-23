@@ -59,6 +59,21 @@ Następnie otwórz ten projekt w Codex i wybierz `$prawnik-pl`.
 
 [Dokumentacja lokalnych skilli w Codex](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
 
+### Instalacja w innych agentach
+
+[Pobierz ZIP v1.0.0](https://github.com/denis-solodov/prawnik-pl/releases/download/v1.0.0/prawnik-pl-1.0.0.zip). W przypadku instalacji z folderu rozpakuj ZIP i przenieś cały katalog `prawnik-pl` z plikiem `SKILL.md`, materiałami i skryptami.
+
+| Agent | Instalacja i użycie |
+| --- | --- |
+| [Claude Code](https://code.claude.com/docs/en/skills) | Umieść katalog w projekcie pod ścieżką `.claude/skills/prawnik-pl/`, a następnie wpisz `/prawnik-pl` w Claude Code. |
+| [Claude Desktop i Claude w przeglądarce](https://support.claude.com/en/articles/12512180-use-skills-in-claude) | Włącz wykonywanie kodu, wybierz opcję **Upload a skill**, prześlij nierozpakowany ZIP i włącz skill na swoim koncie. |
+| [Hermes Desktop i Hermes Agent](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills) | Skopiuj katalog do `~/.hermes/skills/prawnik-pl/` na komputerze, na którym działa Hermes z domyślnym profilem. W nowej sesji wpisz `/prawnik-pl`. W terminalu możesz sprawdzić dostępność poleceniem `hermes skills list`. |
+| [OpenClaw](https://docs.openclaw.ai/skills) | Zainstaluj skill w aktywnym obszarze roboczym poleceniem `openclaw skills install git:denis-solodov/prawnik-pl@v1.0.0`, a następnie sprawdź go przez `openclaw skills list`. |
+| [Cursor](https://cursor.com/docs/skills) | Umieść katalog w projekcie pod ścieżką `.cursor/skills/prawnik-pl/` i wybierz skill z menu `/` w czacie Agent. |
+| [GitHub Copilot](https://docs.github.com/en/copilot/concepts/customizations/agent-skills) | Umieść katalog w repozytorium projektu pod ścieżką `.github/skills/prawnik-pl/` i poproś Copilota o użycie Prawnik PL. |
+
+Wstępne próby projektu wykonano w Codex. We wszystkich środowiskach weryfikacja aktualnego prawa wymaga internetu, a uruchomienie kalkulatora wymaga Pythona. [Installation instructions in English](https://denis-solodov.github.io/prawnik-pl/en/#install)
+
 ### Instrukcja projektu bez instalacji skilla
 
 Jeśli Twój produkt obsługuje instrukcje i pliki projektu, wklej treść [instrukcji projektu](chatgpt-gemini/INSTRUCTIONS.md) i dodaj potrzebne pliki z `references/`. Możesz też wkleić [krótki prompt](assets/lite_prompt.md) bezpośrednio do rozmowy. Skrypty uruchamiaj lokalnie lub w środowisku, które ma do nich dostęp i obsługuje Python.
