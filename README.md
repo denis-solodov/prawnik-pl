@@ -8,7 +8,7 @@ Prawnik PL powstał podczas prac nad publikacją naukową. To otwarty pakiet ins
 **Język:** polski; odpowiada także po angielsku, rosyjsku lub w języku pytania, stosując polskie kategorie prawne.  
 **Status:** publiczna beta. Eksperymentalne wsparcie w badaniu prawa i przygotowywaniu projektów pism. W sprawach wymagających porady skorzystaj z pomocy adwokata lub radcy prawnego.
 
-**English** · Prawnik PL is a public beta for Polish law and administration, developed for an upcoming research publication. It uses the [Agent Skills format](https://agentskills.io/specification) to help AI agents verify legal sources, calculate deadlines, and draft documents. You can use it in English while working with Polish law.
+**English** · Prawnik PL is an open-source Polish law research and legal drafting skill for AI agents, available as a public beta and developed for an upcoming research publication. It uses the [Agent Skills format](https://agentskills.io/specification) to help AI agents verify legal sources, calculate deadlines, and draft documents. You can use it in English while working with Polish law.
 
 [Ogłoszenie UWM](https://uwm.edu.pl/kryminalistyka/ogloszenia/prawnik-pl-publiczna-beta-asystenta-ai-do-prawa-administracji) · [UWM announcement in English](https://uwm.edu.pl/kryminalistyka/en/announcements/prawnik-pl-public-beta-and-invitation-test-ai-skill-polish-law-and-administration)
 

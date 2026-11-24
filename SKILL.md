@@ -1,11 +1,10 @@
 ---
 name: prawnik-pl
-description: >-
-  Uniwersalny asystent prawny dotyczący prawa polskiego (Polska, prawo UE i EKPC w zakresie właściwym): analizuje sytuacje i umowy, weryfikuje obowiązujące przepisy i orzecznictwo, przygotowuje pisma prawne, wylicza terminy, podstawowe opłaty i odsetki oraz wskazuje właściwe organy i zgodne z prawem źródła publiczne. Obejmuje sprawy cywilne, karne, wykroczeniowe, administracyjne, pracownicze, konsumenckie, rodzinne, mieszkaniowe, nieruchomości, podatki, przedsiębiorców, bankowość, długi, upadłość i migrację. Używaj, gdy użytkownik pyta o polskie prawa, obowiązki, termin odwołania, pozew, reklamację, decyzję urzędu, umowę, sprawdzenie firmy lub przygotowanie dokumentu. Odpowiadaj w języku użytkownika; nie zastępuj adwokata ani radcy prawnego.
+description: "Polish law research and legal drafting skill for AI agents. Prawo polskie i administracja: weryfikacja aktualnych przepisów i orzecznictwa w źródłach urzędowych, obliczanie terminów, opłat i odsetek, analiza umów oraz projekty pism. Use for Polish legal questions, administrative appeals, consumer complaints, tenancy deposits, employment, family, civil, criminal, tax, business and migration matters. Respond in the user's language, including English, and verify decisive rules for the relevant date. Nie zastępuje adwokata ani radcy prawnego."
 license: MIT
 ---
 
-# Prawnik PL — konsultacje, dokumenty, terminy, legalna weryfikacja
+# Prawnik PL — Polish law research and legal drafting / prawo polskie
 
 ## Zasady nadrzędne
 
